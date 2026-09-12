@@ -1,0 +1,50 @@
+[
+    {
+        "name": "tooba",
+        "roll_number": "10",
+        "marks": 88.0,
+        "grade": "A"
+    },
+    {
+        "name": "moeed",
+        "roll_number": "12",
+        "marks": 78.0,
+        "grade": "B"
+    },
+    {
+        "name": "muneeba",
+        "roll_number": "77",
+        "marks": 90.0,
+        "grade": "A"
+    },
+    {
+        "name": "noor",
+        "roll_number": "22",
+        "marks": 99.0,
+        "grade": "A"
+    },
+    {
+        "name": "sania",
+        "roll_number": "99",
+        "marks": 55.0,
+        "grade": "D"
+    },
+    {
+        "name": "tooba",
+        "roll_number": "12",
+        "marks": 89.0,
+        "grade": "A"
+    },
+    {
+        "name": "agmad",
+        "roll_number": "89",
+        "marks": 23.0,
+        "grade": "F"
+    },
+    {
+        "name": "ayesha",
+        "roll_number": "56",
+        "marks": 89.0,
+        "grade": "A"
+    }
+]
