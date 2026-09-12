@@ -1,58 +1,78 @@
-# Python-internship-tasks 1
-Student Grade & Result Calculator
-Objective
+# Python-internship-tasks 2
+# Student Management System
 
-This project is a simple Python program that calculates a student's result based on marks.
+## Objective
 
-The purpose of this project is to practice basic Python programming concepts.
+This project is a simple console-based Student Management System made using Python.
 
-Features
+The purpose of this project is to practice basic Python programming concepts and simple data management.
 
-The program can:
+## Features
 
-Ask the student's name.
-Take marks for multiple subjects.
-Calculate total marks.
-Calculate percentage.
-Calculate the student's grade.
-Display whether the student passed or failed.
-Validate the entered marks.
-Use functions to organize the program.
-Handle multiple students and find the student with the highest percentage.
-Python Concepts Used
-Variables
-Data Types
-Input and Output
-Operators
-If, elif and else
-Loops
-Functions
-Basic validation
-How the Program Works
-The program asks the user to enter the student's name.
-The user enters marks for multiple subjects.
-The program calculates the total marks.
-The percentage is calculated from the total marks.
-The program determines the grade using conditional statements.
-The program checks whether the student has passed or failed.
-For multiple students, the program compares their percentages and displays the student with the highest percentage.
-Example Output
-Enter student name: Ali
+The program provides the following options:
 
-Enter marks for English: 80
-Enter marks for Mathematics: 75
-Enter marks for Computer: 90
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Calculate Average Marks
+7. Exit
 
-Total Marks: 245
-Percentage: 81.66
-Grade: A
-Result: Passed
-Advanced Challenge
+Each student record contains:
 
-The advanced part allows the user to enter information for multiple students.
+* Name
+* Roll Number
+* Marks
+* Grade
 
-After entering the students' results, the program compares their percentages and displays the student who has the highest percentage.
+## Python Concepts Used
 
-Conclusion
+* Lists
+* Dictionaries
+* Functions
+* Loops
+* Conditional Statements
+* Basic Data Management
+* File Handling
 
-This project helped me practice basic Python programming concepts such as variables, input, conditions, loops, functions, and calculations.
+## How the Program Works
+
+1. The program displays a menu.
+2. The user selects an option from the menu.
+3. The user can add a new student.
+4. The user can view all students.
+5. The user can search for a student using the roll number.
+6. The user can update student information.
+7. The user can delete a student.
+8. The program can calculate the average marks of all students.
+9. The user can exit the program.
+
+## File Handling
+
+For the advanced challenge, student records are saved in a JSON file named `students.json`.
+
+When the program starts, it loads the saved student records from the file.
+
+When a student is added, updated, or deleted, the JSON file is updated.
+
+This allows the student records to remain saved even after the program is closed.
+
+## Example
+
+```text
+====== Student Management System ======
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Calculate Average Marks
+7. Exit
+```
+
+## Conclusion
+
+This project helped me practice lists, dictionaries, functions, loops, conditional statements, and basic file handling in Python.
+
+It also helped me understand how student records can be managed and saved using a simple Python program.
