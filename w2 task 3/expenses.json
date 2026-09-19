@@ -1,0 +1,27 @@
+[
+    {
+        "name": "dinner",
+        "amount": 900.0,
+        "category": "food"
+    },
+    {
+        "name": "breakfast",
+        "amount": 700.0,
+        "category": "morning"
+    },
+    {
+        "name": "dinner",
+        "amount": 399.0,
+        "category": "food"
+    },
+    {
+        "name": "bus",
+        "amount": 500.0,
+        "category": "transport"
+    },
+    {
+        "name": "dinner",
+        "amount": 9000.0,
+        "category": "food"
+    }
+]
